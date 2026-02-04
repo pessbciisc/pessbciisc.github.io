@@ -1,0 +1,10 @@
+<footer class="site-footer">
+  <div class="container">
+    <p>{{ site.data.chapter.name }} · <a href="mailto:{{ site.data.chapter.email }}">{{ site.data.chapter.email }}</a></p>
+    <p>
+      {% for s in site.data.chapter.social %}
+        <a href="{{ s.url }}">{{ s.label }}</a>{% unless forloop.last %} · {% endunless %}
+      {% endfor %}
+    </p>
+  </div>
+</footer>
