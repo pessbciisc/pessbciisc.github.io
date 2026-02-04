@@ -1,0 +1,11 @@
+- title: "Inaugural Chapter Meet"
+  date: "2026-02-20"
+  venue: "IISc, Bengaluru"
+  url: "https://example.com/register"
+  status: "upcoming"
+
+- title: "Guest Lecture: Power Systems Cybersecurity"
+  date: "2026-03-10"
+  venue: "Online"
+  url: "https://example.com/lecture"
+  status: "upcoming"
