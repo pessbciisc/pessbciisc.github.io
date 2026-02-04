@@ -1,10 +1,18 @@
 <footer class="site-footer">
-  <div class="container">
-    <p>{{ site.data.chapter.name }} · <a href="mailto:{{ site.data.chapter.email }}">{{ site.data.chapter.email }}</a></p>
-    <p>
+  <div class="container footer-inner">
+    <div>
+      <div class="footer-title">{{ site.data.chapter.name }}</div>
+      <div class="footer-muted">
+        <a href="mailto:{{ site.data.chapter.email }}">{{ site.data.chapter.email }}</a>
+      </div>
+    </div>
+
+    <div class="footer-links">
       {% for s in site.data.chapter.social %}
-        <a href="{{ s.url }}">{{ s.label }}</a>{% unless forloop.last %} · {% endunless %}
+        <a href="{{ s.url }}">{{ s.label }}</a>{% unless forloop.last %}<span class="sep">·</span>{% endunless %}
       {% endfor %}
-    </p>
+    </div>
+
+    <!-- If you later add an official IEEE logo image, keep it unmodified and >=100px wide on web. -->
   </div>
 </footer>
