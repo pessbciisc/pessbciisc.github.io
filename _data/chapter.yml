@@ -1,0 +1,13 @@
+name: "IEEE PES Student Branch Chapter, IISc"
+tagline: "Power • Energy • Systems"
+email: "pes@iisc.ac.in"
+social:
+  - label: "GitHub"
+    url: "https://github.com/ieeepesiisc"
+  - label: "LinkedIn"
+    url: "https://www.linkedin.com/"
+quick_links:
+  - label: "Join IEEE"
+    url: "https://www.ieee.org/membership/join/"
+  - label: "IEEE PES"
+    url: "https://ieee-pes.org/"
